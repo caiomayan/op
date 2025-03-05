@@ -14,6 +14,7 @@ html {
   font-weight: normal;
   background-color: black;
   height: 100%;
+  user-select: none;
 }
 
 h2 {
@@ -117,7 +118,7 @@ header {
   align-items: center;
   color: white;
   font-size: 6rem;
-  font-family: "Monsieur La Doulaise", cursive;
+  font-family: "Monsieur La Doulaise", sans-serif;
   font-weight: normal;
 }
 
@@ -155,6 +156,7 @@ header {
   padding-bottom: 60px;
 }
 
+title,
 .main-title a,
 .menu-title a,
 .menu-title-2 a,
@@ -163,6 +165,7 @@ header {
   transition: color 0.5s ease;
 }
 
+title:hover,
 .main-title a:hover,
 .menu-title a:hover,
 .menu-title-2 a:hover,
@@ -181,6 +184,11 @@ header {
 
 .container-social {
   gap: 60px;
+}
+
+.container-menu-4 {
+  gap: 30px;
+  padding: 180px;
 }
 
 .container-menu {
@@ -212,6 +220,7 @@ header {
   color: rgba(255, 255, 255, 0.829);
   background-color: rgba(128, 128, 128, 0.568);
   border-radius: 5px;
+  user-select: text;
 }
 
 .box-info p {
