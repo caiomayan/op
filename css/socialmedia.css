@@ -1,0 +1,13 @@
+.navbar-menu ul {
+    gap: 4rem !important;
+}
+
+.navicon {
+    color: white;
+    transition: color 0.3s ease;
+    font-size: 4.5rem;
+}
+
+.navicon:hover {
+    color: gray
+}
